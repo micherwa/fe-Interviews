@@ -5,6 +5,7 @@ HTML5不基于SGML，因此不需要对DTD进行引用，但是需要doctype来�
 
 而HTML4.01基于SGML，所以需要对DTD进行引用，才能告知浏览器文档所使用的文档类型
 
+&nbsp;
 
 ## 行内元素、块级元素、空(void)元素，分别有哪些？
 
@@ -13,6 +14,8 @@ HTML5不基于SGML，因此不需要对DTD进行引用，但是需要doctype来�
 块级元素有：div ul ol li dl dt dd h1~h6 p
 
 空元素:br hr img input link meta
+
+&nbsp;
 
 ## 常见的浏览器内核有哪些？
 
@@ -25,6 +28,8 @@ Gecko内核：FireFox、Netscape6及以上版本
 Trident内核（又称MSHTML内核）：IE、国产浏览器
 
 Presto内核：原Opera7及以上
+
+&nbsp;
 
 ## cookies，sessionStorage 和 localStorage 有何区别？
 
@@ -44,6 +49,8 @@ localStorage 存储持久数据，浏览器关闭后数据不丢失除非主动�
 
 sessionStorage 数据在当前浏览器窗口关闭后自动删除
 
+&nbsp;
+
 ## 页面可见性（Page Visibility API） 可以有哪些用途？
 
 通过 visibilityState 的值检测页面当前是否可见，以及打开网页的时间等
@@ -52,6 +59,7 @@ sessionStorage 数据在当前浏览器窗口关闭后自动删除
 
 完成登陆后，无刷新自动同步其他页面的登录状态
 
+&nbsp;
 
 ## 对浏览器内核的理解？
 
@@ -62,6 +70,8 @@ sessionStorage 数据在当前浏览器窗口关闭后自动删除
 JS引擎则负责解析和执行JS脚本来实现网页的动态效果和用户交互
 
 最开始渲染引擎和JS引擎并没有区分的很明确，后来JS引擎越来越独立，内核就倾向于只指渲染引擎
+
+&nbsp;
 
 ## HTML5有哪些新特性？
 
@@ -99,11 +109,15 @@ Form Data 对象
 
 绘画 canvas
 
+&nbsp;
+
 ## HTML5移除了那些元素？
 
 纯表现的元素：basefont、big、center、font、s、strike、tt、u
 
 对可用性产生负面影响的元素：frame、frameset、noframes
+
+&nbsp;
 
 ## HTML5的离线储存的工作原理以及使用？
 
@@ -117,6 +131,8 @@ Form Data 对象
 - 在文档的 html 标签设置 manifest 属性，如 manifest="/offline.appcache"
 - 在项目中新建 manifest 文件，manifest 文件的命名建议：xxx.appcache
 - 在 web 服务器配置正确的 MIME-type，即 text/cache-manifest
+
+&nbsp;
 
 ## label标签在表单控件中的2种用法
 
